@@ -32,7 +32,7 @@ const Skills = () => {
 
   return (
     <>
-      <section className="text-gray-600 body-font bg-rose-100" id="Skills">
+      <section className="text-gray-600 body-font bg-slate-400" id="Skills">
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
           {Technology.map((tech) => {
             const { id, title, img, description } = tech;

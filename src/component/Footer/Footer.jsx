@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     // <div>Footer</div>
     <>
-      <footer className="text-gray-600 body-font bg-rose-100">
+      <footer className="text-gray-600 body-font bg-slate-200">
         <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <img className="w-72" src={logo} />
@@ -26,7 +26,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            {/* <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
                 CATEGORIES
               </h2>
@@ -134,7 +134,15 @@ const Footer = () => {
                   </a>
                 </li>
               </nav>
-            </div>
+            </div> */}
+
+            <p className="mb-3 text-lg text-gray-500 md:text-xl dark:text-gray-400">
+              Explore my digital journey! From innovative projects to creative
+              endeavors, witness the blend of technology and design. Let's
+              connect and make ideas come to life. Elevate your web experience
+              with a touch of innovation. Welcome to my digital world – where
+              passion meets code, and creativity knows no bounds.
+            </p>
           </div>
         </div>
         <div className="bg-gray-100">

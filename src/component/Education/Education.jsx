@@ -33,7 +33,7 @@ const Education = () => {
   }, [controls]);
 
   return (
-    <section className="dark:bg-gray-800 dark:text-gray-100" id="Education">
+    <section className="bg-slate-200 dark:text-gray-100" id="Education">
       <div className="container mx-auto flex flex-col p-6">
         <h2 className="py-4 text-3xl font-bold text-center">Education</h2>
         <div className="divide-y dark:divide-gray-700">
